@@ -66,7 +66,7 @@
             <h2>Economic Knowledge</h2>
             <p>Gain insights into the world of economics, with simplified explanations and real-world examples.</p>
         </section>
-    </div>
+    </div
 
     <!-- Footer -->
     <footer>
