@@ -3,75 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog</title>
+    <title>My Personal Blog</title>
     <style>
-        /* Basic Reset */
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
-
-        /* Page Styling */
-        body { background-color: #f9f9f9; color: #333; }
-        header { background-color: #3c8dbc; padding: 20px; text-align: center; color: #fff; }
-        header h1 { font-size: 2.5em; }
-        nav ul { display: flex; justify-content: center; padding: 10px 0; }
-        nav ul li { list-style: none; margin: 0 15px; }
-        nav ul li a { color: #fff; text-decoration: none; font-weight: bold; }
-
-        /* Main Content */
-        .container { max-width: 800px; margin: 30px auto; padding: 0 20px; }
-        .section { margin-bottom: 40px; }
-        .section h2 { font-size: 1.8em; margin-bottom: 10px; color: #3c8dbc; }
-        .section p { line-height: 1.6; margin-top: 10px; }
-
-        /* Footer Styling */
-        footer { background-color: #333; padding: 20px; text-align: center; color: #fff; margin-top: 30px; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+        h1 { color: #333; }
+        h2 { color: #666; }
+        p { line-height: 1.6; }
+        .poem { font-style: italic; margin: 20px 0; }
     </style>
 </head>
 <body>
+    <h1>Welcome to My Blog</h1>
+    
+    <h2>Important Topics</h2>
+    <p>Here, I will share insights on various important topics...</p>
 
-    <!-- Header -->
-    <header>
-        <h1>Welcome to My Blog</h1>
-        <nav>
-            <ul>
-                <li><a href="#important-topics">Important Topics</a></li>
-                <li><a href="#world-journey">World Journey</a></li>
-                <li><a href="#fiction-stories">Fiction Stories</a></li>
-                <li><a href="#economic-knowledge">Economic Knowledge</a></li>
-            </ul>
-        </nav>
-    </header>
+    <h2>My Journey Around the World</h2>
+    <p>Stories and experiences from my travels...</p>
 
-    <!-- Main Content -->
-    <div class="container">
-        <!-- Important Topics Section -->
-        <section id="important-topics" class="section">
-            <h2>Important Topics</h2>
-            <p>Explore a variety of essential topics covering current events, insightful thoughts, and much more.</p>
-        </section>
+    <h2>Fiction Stories</h2>
+    <p>Enjoy my fictional tales and adventures...</p>
 
-        <!-- World Journey Section -->
-        <section id="world-journey" class="section">
-            <h2>World Journey</h2>
-            <p>Join me as I explore the wonders of the world, one destination at a time.</p>
-        </section>
+    <h2>Economic Knowledge</h2>
+    <p>Understanding economics in today's world...</p>
 
-        <!-- Fiction Stories Section -->
-        <section id="fiction-stories" class="section">
-            <h2>Fiction Stories</h2>
-            <p>Dive into captivating tales and fictional worlds crafted for your enjoyment.</p>
-        </section>
+    <h2>Poetry</h2>
+    <p class="poem">In the silence of the night,<br>
+    Thoughts take flight, like stars so bright.<br>
+    Whispers of dreams softly unfold,<br>
+    In verses woven, stories told.</p>
 
-        <!-- Economic Knowledge Section -->
-        <section id="economic-knowledge" class="section">
-            <h2>Economic Knowledge</h2>
-            <p>Gain insights into the world of economics, with simplified explanations and real-world examples.</p>
-        </section>
-    </div
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 My Blog | Designed with care and curiosity</p>
-    </footer>
-
+    <p class="poem">Each line a glimpse into the soul,<br>
+    Where echoes of emotions play a role.<br>
+    With words like rivers, flowing free,<br>
+    Poetry paints the heart's decree.</p>
 </body>
 </html>
